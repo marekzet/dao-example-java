@@ -4,10 +4,6 @@ import mz.dao.core.Employee;
 import mz.dao.core.EmployeeDAO;
 import mz.dao.core.EmployeeDAOImpl;
 
-/**
- * http://stackoverflow.com/questions/8550124/what-is-the-difference-between-dao-and-repository-patterns
- * http://stackoverflow.com/questions/19154202/data-access-object-dao-in-java
- */
 public class Main {
 
     private static EmployeeDAO dao = new EmployeeDAOImpl();
